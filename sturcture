@@ -1,0 +1,29 @@
+INTRO-JEST/
+├── package.json
+├── jest.config.js
+├── tsconfig.json
+├──public/
+│   ├── index.html
+└──src/
+    ├── components/
+    │   ├── Button/
+    │   │   ├── Button.tsx
+    │   │   ├── Button.test.tsx
+    │   │   └── index.ts
+    │   ├── Card/
+    │   │   ├── Card.tsx
+    │   │   ├── Card.test.tsx
+    │   │   └── index.ts
+    │   └── Navigation/
+    │       ├── Navigation.tsx
+    │       ├── Navigation.test.tsx
+    │       └── index.ts
+    ├── pages/
+    │   ├── HomePage/
+    │   │   ├── HomePage.tsx
+    │   │   ├── HomePage.test.tsx
+    │   │   └── index.ts
+    ├── services/
+    │   ├── api.ts
+    │   └── api.test.ts
+    └──setup.ts

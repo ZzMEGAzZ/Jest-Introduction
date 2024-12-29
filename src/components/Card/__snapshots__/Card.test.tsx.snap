@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card matches snapshot 1`] = `
+<div>
+  <div
+    class="rounded-lg p-4 bg-white shadow "
+    data-testid="card"
+    role="article"
+  >
+    <h3
+      class="text-lg font-semibold mb-2"
+      data-testid="card-title"
+    >
+      Test Card
+    </h3>
+    <div
+      data-testid="card-content"
+    >
+      <p>
+        Test content
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card matches snapshot with different variants: default variant 1`] = `
+<div>
+  <div
+    class="rounded-lg p-4 bg-white shadow "
+    data-testid="card"
+    role="article"
+  >
+    <div
+      data-testid="card-content"
+    >
+      <p>
+        Default variant
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card matches snapshot with different variants: outlined variant 1`] = `
+<div>
+  <div
+    class="rounded-lg p-4 border border-gray-200 "
+    data-testid="card"
+    role="article"
+  >
+    <div
+      data-testid="card-content"
+    >
+      <p>
+        Outlined variant
+      </p>
+    </div>
+  </div>
+</div>
+`;

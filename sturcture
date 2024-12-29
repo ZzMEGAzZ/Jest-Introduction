@@ -14,10 +14,6 @@ INTRO-JEST/
     │   │   ├── Card.tsx
     │   │   ├── Card.test.tsx
     │   │   └── index.ts
-    │   └── Navigation/
-    │       ├── Navigation.tsx
-    │       ├── Navigation.test.tsx
-    │       └── index.ts
     ├── pages/
     │   ├── HomePage/
     │   │   ├── HomePage.tsx
